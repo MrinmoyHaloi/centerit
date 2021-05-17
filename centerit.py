@@ -1,5 +1,5 @@
 # I will use win32api library for getting the screen dimensions
-#please install pywin32
+# pip install pywin32
 # Please suggest me new ideas in the github page
 # https://github.com/MrinmoyHaloi/center_it
 
