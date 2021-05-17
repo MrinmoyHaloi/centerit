@@ -5,4 +5,4 @@ import everything from the library.
 
 from centerit import *
 
-call centerwin function. You just have to pass the root window name and the dimensions you want.
+call centerwin function. You just have to pass the root window name and the dimensions you want for your root window.
