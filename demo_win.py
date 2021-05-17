@@ -1,5 +1,5 @@
 from tkinter import *
-from center import *
+from centerit import *
 
 root = Tk()
 root.title("Demo window")
