@@ -1,15 +1,13 @@
 # Please suggest me new ideas in the github page
 # https://github.com/MrinmoyHaloi/center_it
 
+from tkinter import *
+
 try:
-	from tkinter import *
 	from PyQt5.QtWidgets import *
 	import sys
 except ImportError:
-	print("Required libraries not install")
-
-app = QApplication(sys.argv)
-screen = app.primaryScreen().size()
+	print("PyQt5 not installed")
 
 def centertk(win, width, height):
 	'''
@@ -24,6 +22,8 @@ def centerqt(win, width, height):
 	'''
 	You just have to pass the root window name and the dimensions you want for your window.
 	'''
+	app = QApplication(sys.argv)
+	screen = app.primaryScreen().size()
 	xposi = screen.width()/2 - width/2
 	yposi = screen.height()/2 - height/2
 
