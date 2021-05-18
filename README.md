@@ -4,7 +4,12 @@
 You can use this library to center your Tkinter or PyQt windows on both x and y cordinates.
 ### How to use
 
-First import everything from the library using
+First clone the repository using 
+```bash
+git clone https://github.com/MrinmoyHaloi/center_it
+```
+or download as a zip file and extract it.
+Then import everything from the library using
 
 `from centerit import *`
 
