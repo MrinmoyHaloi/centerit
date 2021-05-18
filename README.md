@@ -8,7 +8,7 @@ First clone the repository using
 ```bash
 git clone https://github.com/MrinmoyHaloi/center_it
 ```
-or download as a zip file and extract it.
+or [download](https://github.com/MrinmoyHaloi/center_it/archive/refs/heads/main.zip) as a zip file and extract it.
 Then import everything from the library using
 
 `from centerit import *`
