@@ -1,21 +1,30 @@
-# I will use win32api library for getting the screen dimensions
-# pip install pywin32
 # Please suggest me new ideas in the github page
 # https://github.com/MrinmoyHaloi/center_it
 
 try:
-	from win32.win32api import GetSystemMetrics
+	from tkinter import *
+	from PyQt5.QtWidgets import *
+	import sys
 except ImportError:
 	print("Required libraries not install")
 
-def xpos(width):
-    xposi = GetSystemMetrics(0)/2 - width/2
-    return xposi
+app = QApplication(sys.argv)
+screen = app.primaryScreen().size()
 
-def ypos(height):
-    yposi = GetSystemMetrics(1)/2 - height/2
-    return yposi
+def centertk(win, width, height):
+	'''
+	You just have to pass the root window name and the dimensions you want for your window.
+	'''
+	xposi = win.winfo_screenwidth()/2 - width/2
+	yposi = win.winfo_screenheight()/2 - height/2
 
-def centerwin(win, width, height):
-	# You just have to pass the root window name and the dimensions you want
-    win.geometry(f'{width}x{height}+{int(xpos(width))}+{int(ypos(height))}')
+	win.geometry(f'{width}x{height}+{int(xposi)}+{int(yposi)}')
+
+def centerqt(win, width, height):
+	'''
+	You just have to pass the root window name and the dimensions you want for your window.
+	'''
+	xposi = screen.width()/2 - width/2
+	yposi = screen.height()/2 - height/2
+
+	win.setGeometry(int(xposi),int(yposi),int(width),int(height))
