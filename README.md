@@ -6,9 +6,9 @@ You can use this library to center your Tkinter or PyQt windows both horizontall
 
 First clone the repository using 
 ```bash
-git clone https://github.com/MrinmoyHaloi/center_it
+git clone https://github.com/MrinmoyHaloi/center-it
 ```
-or [download](https://github.com/MrinmoyHaloi/center_it/archive/refs/heads/main.zip) as a zip file and extract it.
+or [download](https://github.com/MrinmoyHaloi/center-it/archive/refs/heads/main.zip) as a zip file and extract it.
 Then import everything from the library using
 
 `from centerit import *`
