@@ -1,15 +1,20 @@
-![Build 0.2](https://img.shields.io/badge/Build-0.2-brightgreen) ![Python-3.9.2|3.9.3|3.9.4|3.9.5](https://img.shields.io/badge/Python-3.9.2|3.9.3|3.9.4|3.9.5-blue) ![platform win|linux](https://img.shields.io/badge/platform-win%20|%20linux-red)
+![pypi](https://img.shields.io/pypi/wheel/centerit)
+![Python-3.9.2|3.9.3|3.9.4|3.9.5](https://img.shields.io/badge/Python-3.9.2|3.9.3|3.9.4|3.9.5-blue) 
+![platform win|linux](https://img.shields.io/badge/platform-win%20|%20linux-red)
 # center_it
 ## A python library for centering the tkinter and PyQt windows.
 You can use this library to center your Tkinter or PyQt windows both horizontally and vertically. That means your window will show in the middle of the screen.
-### How to use
+### How to install
 
 First clone the repository using 
 ```bash
 git clone https://github.com/MrinmoyHaloi/center-it
 ```
 or [download](https://github.com/MrinmoyHaloi/center-it/archive/refs/heads/main.zip) as a zip file and extract it.
-Then import everything from the library using
+
+or pip install centerit
+### How to use
+import everything from the library using
 
 `from centerit import *`
 
