@@ -1,5 +1,5 @@
 ![pypi](https://img.shields.io/pypi/wheel/centerit)
-![Python-3.9.2|3.9.3|3.9.4|3.9.5](https://img.shields.io/badge/Python-3.9.2|3.9.3|3.9.4|3.9.5-blue) 
+![Python-3.9.2|3.9.3|3.9.4|3.9.5](https://img.shields.io/badge/Python-3.8.5|to|3.9.5-blue) 
 ![platform win|linux](https://img.shields.io/badge/platform-win%20|%20linux-red)
 # centerit
 ## A python library for centering the tkinter and PyQt windows.
