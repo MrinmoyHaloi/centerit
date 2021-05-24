@@ -31,3 +31,5 @@ centerqt(root, width, height)
 You just have to pass the root window name and the dimensions you want for your root window.
 
 I used python 3.9.5 to develop it. I test it out with python 3.9.2. I used windows 10 20H2 and parrot os 4.11.1(Debian Based) to test it. I will apreciate if someone test it out with other versions of python that is lower than 3.9.2. I will try to add support for other gui libraries in the future, Like wxPython, PyQt4, PySide2 etc.
+
+### Thanks to [Cerberus](https://github.com/Cerberus22) for testing in python 3.8.5. 
